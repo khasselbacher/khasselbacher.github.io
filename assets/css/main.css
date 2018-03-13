@@ -2666,6 +2666,11 @@
 		text-align: center;
 	}
 
+	section.hidden, article.hidden {
+		text-align: center;
+		display: none;
+	}
+
 	header.major {
 		margin-bottom: 3em;
 	}
