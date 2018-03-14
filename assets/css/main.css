@@ -1623,12 +1623,16 @@
 	}
 
 	body {
-		background-color: #E3E2E2;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #D4D2D2 15%, #F1F0F0 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #D4D2D2 15%, #F1F0F0 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #D4D2D2 15%, #F1F0F0 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #D4D2D2 15%, #F1F0F0 85%);
-		
+		height: 100%;
+		background-color: #ffffff;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+		background-repeat: repeat,			no-repeat,			no-repeat;
+		background-size: 100px 100px, cover,				cover;
+		background-position: top left,		center center,		bottom center;
+		background-attachment: fixed,			fixed,				fixed;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3106,7 +3110,6 @@
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
-		background-image: url('images/header_background.jpg');
 	}
 
 		#header h1 {
@@ -3120,7 +3123,6 @@
 
 		#header.alt {
 			padding: 5em 5em 3em 5em ;
-			background-image: url('images/header_background.jpg');
 		}
 
 			#header.alt h1 {
@@ -3716,7 +3718,7 @@
 		/** Pad the lightbox image */
 		max-width: 90%;
 		max-height: 80%;
-		margin-top: 8%;
+		margin-top: 5%;
 	}
 
 	.lightbox:target {
