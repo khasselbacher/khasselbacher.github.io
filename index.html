@@ -8,6 +8,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
 	</head>
 	<body>
 
@@ -55,8 +61,23 @@
 									<h2>Wedding</h2>
 								</header>
 								<p>The ceremony and reception will take place at the Aldo Leopold Nature. The venue is a nature-focused center with hiking trails as well as indoor exhibits. Weather permitting, the ceremony will take place outside – please dress accordingly to walk around and enjoy the outdoors. Following the ceremony, guests can take time to explore the grounds, play lawn games, and listen to a band during cocktail hour. Dinner, dancing, and a bonfire will follow!</p>
-								<iframe width="900" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJxW1HCypSBogRAhrzvNWI26k&key=AIzaSyBzVNQjgEiLKgPbORs9Dsl8ryi9BjfHvlQ" allowfullscreen>
-								</iframe>
+								<div id="map"></div>
+							    <script>
+							      function initMap() {
+							        var uluru = {lat: -25.363, lng: 131.044};
+							        var map = new google.maps.Map(document.getElementById('map'), {
+							          zoom: 11,
+							          center: uluru
+							        });
+							        var marker = new google.maps.Marker({
+							          position: uluru,
+							          map: map
+							        });
+							      }
+							    </script>
+							    <script async defer
+							    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzVNQjgEiLKgPbORs9Dsl8ryi9BjfHvlQ&callback=initMap">
+							    </script>
 							</section>
 
 						<!-- Travel -->
