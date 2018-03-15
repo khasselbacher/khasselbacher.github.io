@@ -3122,7 +3122,7 @@
 		}
 
 		#header.alt {
-			padding: 5em 5em 3em 5em ;
+			padding: 1em 5em 1em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3138,7 +3138,7 @@
 			#header.alt .logo {
 				
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0 0 0 0;
 			}
 
 				#header.alt .logo img {
@@ -3154,7 +3154,7 @@
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 1em 4em 1em 4em ;
 				}
 
 		}
@@ -3166,7 +3166,7 @@
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 1em 3em 1em 3em ;
 				}
 
 		}
@@ -3187,7 +3187,7 @@
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 1em 2em 1em 2em ;
 				}
 
 					#header.alt h1 {
@@ -3203,7 +3203,7 @@
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 1em 1.5em 1em 1.5em ;
 				}
 
 		}
@@ -3215,7 +3215,7 @@
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
