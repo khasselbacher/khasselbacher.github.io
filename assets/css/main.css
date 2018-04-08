@@ -1690,7 +1690,6 @@
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 		color: inherit;
 	}
 
@@ -2475,6 +2474,20 @@
 		}
 
 			.image.main img {
+				width: 100%;
+			}
+
+		.image.reg {
+			padding: 0.65em;
+			width: 100%;
+			vertical-align: center
+		}
+
+		.image.reg:hover {
+    		opacity: 0.5;
+    	}
+
+			.image.reg img {
 				width: 100%;
 			}
 
