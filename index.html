@@ -35,7 +35,7 @@
 							<li><a href="#wedding">Wedding</a></li>
 							<li><a href="#travel">Travel</a></li>
 							<li><a href="#registry">Registry</a></li>
-							<!-- <li><a href="#rsvp">RSVP</a></li> -->
+							<li><a href="#rsvp">RSVP</a></li>
 							<li><a href="#cta">Photos</a></li>
 						</ul>
 					</nav>
@@ -156,7 +156,7 @@
 							</section>
 
 						<!-- RSVP -->
-							<section id="rsvp" class="main hidden"> <!--Change "hidden" to "special" -->
+							<section id="rsvp" class="main special"> <!--Change "hidden" to "special" -->
 								<header class="major">
 									<h2>RSVP</h2>
 								</header>
@@ -164,9 +164,9 @@
 										<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/thank_you.html';}"></iframe>
 										<form method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSc103rR3n8_FuhuMJOrNeAz8-F_pLGXVjJeChtJT2yQCGCRdw/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
 											<div class="row uniform">
-												<div class="12u$">
+												<!-- <div class="12u$">
 													<input type="email" name="emailAddress" id="email" value="" placeholder="Email" required/>
-												</div>
+												</div> -->
 												<div class="6u 12u$(xsmall)">
 													<input type="text" name="entry.72303453" id="first_name" value="" placeholder="First Name" required/>
 												</div>
@@ -182,11 +182,17 @@
 													<label for="attend_no">Sorry, I can't make it.</label>
 												</div>
 												<div class="12u$">
+													<input type="text" name="entry.1053593164" id="other_invitees" value="" placeholder="Other invitees attending?" required/>
+												</div>
+												<div class="12u$">
+													<input type="text" name="entry.1416673547" id="dietary_restrictions" value="" placeholder="Any dietary restrictions?" required/>
+												</div>
+												<div class="12u$">
 													<textarea name="entry.987832255" id="message" placeholder="Anything else?" rows="6"></textarea>
 												</div>
 												<div class="12u$">
 													<ul class="actions">
-														<li><input type="submit" value="Send Message" class="special" /></li>
+														<li><input type="submit" value="Send RSVP" class="special" /></li>
 														<li><input type="reset" value="Reset" /></li>
 													</ul>
 												</div>
