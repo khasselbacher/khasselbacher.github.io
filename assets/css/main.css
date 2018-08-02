@@ -3531,23 +3531,23 @@
 		}
 
 		#main ::-webkit-input-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: rgba(99, 99, 99, 0.75) !important;
 		}
 
 		#main :-moz-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: rgba(99, 99, 99, 0.75) !important;
 		}
 
 		#main ::-moz-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: rgba(99, 99, 99, 0.75) !important;
 		}
 
 		#main :-ms-input-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: rgba(99, 99, 99, 0.75) !important;
 		}
 
 		#main .formerize-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: rgba(99, 99, 99, 0.75) !important;
 		}
 
 		#main .icon.major {
